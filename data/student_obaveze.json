@@ -1,0 +1,39 @@
+{
+  "student": "Milica",
+  "predmeti": [
+    {
+      "naziv": "Razvoj naprednih aplikacija elektronskog poslovanja",
+      "obaveze": [
+        {
+          "tip": "seminarski rad",
+          "naziv": "StudyAssist projekat",
+          "rok": "2026-06-25",
+          "prioritet": "visok"
+        },
+        {
+          "tip": "JIRA dokumentacija",
+          "naziv": "Epici, user stories i backlog",
+          "rok": "2026-06-20",
+          "prioritet": "visok"
+        },
+        {
+          "tip": "AI agent",
+          "naziv": "Study Planner Agent",
+          "rok": "2026-06-24",
+          "prioritet": "visok"
+        }
+      ]
+    },
+    {
+      "naziv": "Uvod u menadžment elektronskog poslovanja",
+      "obaveze": [
+        {
+          "tip": "seminarski rad",
+          "naziv": "TikTok marketing i kupovne odluke",
+          "rok": "2026-06-22",
+          "prioritet": "srednji"
+        }
+      ]
+    }
+  ]
+}
