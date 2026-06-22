@@ -1,18 +1,18 @@
 import os
-from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 
 
 class StudyPlannerAgent:
     """
     Jednostavan AI agent za planiranje učenja.
-    Agent koristi LLM model i eksterne podatke o studentskim obavezama.
+    Agent koristi lokalni Ollama LLM model i eksterne podatke o studentskim obavezama.
     """
 
     def __init__(self):
-        model_name = os.getenv("MODEL_NAME", "gpt-4o-mini")
+        model_name = os.getenv("MODEL_NAME", "llama3.2:1b")
 
-        self.llm = ChatOpenAI(
+        self.llm = ChatOllama(
             model=model_name,
             temperature=0.3
         )
